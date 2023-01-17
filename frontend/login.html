@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>login</title>
+        <link rel="stylesheet" href="./css/login.css">
+        <link rel="stylesheet" href="./css/shared.css">
+    </head>
+
+    <body>
+        <nav class="main-nav">
+            <div class="container">
+                <span> Login System</span>
+                <div class="links">
+                    <a href="#" id="login"> Login </a>
+                </div>
+            </div>
+        </nav>
+        <section class="section-login">
+            <div class="container">
+                <form id="form-login" method="post">
+                    <div class="form-group">
+                        <label for="email"> Email </label>
+                        <input id="inputEmail" required type="text" name="name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="password"> Password </label>
+                        <input id="inputPassword" required type="password" name="password" />
+                    </div>
+                    <div class="">
+                        <button class="button">Enter </button>
+                    </div>
+                    <div>
+                        <p id="alert-error" class="alert alert-error display-none"> Sorry we were unable to login,
+                            please check your
+                            email and
+                            password</p>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="./js/login.js"> </script>
+        <script src="./js/database.js"> </script>
+    </body>
+
+</html>

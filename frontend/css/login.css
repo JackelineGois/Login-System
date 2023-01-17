@@ -1,0 +1,59 @@
+
+
+
+
+.section-login .container {
+  background-color: white;
+  max-width: 350px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+  width: 100%;
+}
+
+#form-login .form-group {
+  margin-bottom: 10px;
+}
+
+#form-login .form-group label {
+  width: 100%;
+  display: block;
+  font-weight: bold;
+}
+
+#form-login .form-group input {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  height: 30px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.button {
+  height: 40px;
+  width: 100%;
+  background-color: #1e2125;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.alert {
+  background-color: #dee2e6;
+  padding: 20px;
+  align-items: center;
+  color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.alert.alert-error {
+  background-color: #f8d7da;
+  color: #842029;
+  border-color: #f5c2c7;
+}
+
+.display-none {
+  display: none;
+}
